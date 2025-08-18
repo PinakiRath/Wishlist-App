@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* Global styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.main {
+  max-width: 600px;
+  margin: 5rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+/* Heading */
+.h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+/* Form */
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+/* Input field */
+.input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 2px solid #ddd;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+.input:focus {
+  border-color: #4f46e5; /* Indigo accent */
+  outline: none;
+}
+
+/* Button */
+.button {
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #4f46e5;
+  color: #fff;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.button:hover {
+  background: #4338ca;
+  transform: translateY(-2px);
+}
+
+/* Wishlist items container */
+.container {
+  text-align: left;
+}
+.container .wishlist-item {
+  background: #f3f4f6;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .wishlist-item span {
+  font-size: 1rem;
+}
+.container .wishlist-item .material-icons-outlined {
+  cursor: pointer;
+  color: #ef4444;
+  transition: color 0.3s ease;
+}
+.container .wishlist-item .material-icons-outlined:hover {
+  color: #dc2626;
+}
